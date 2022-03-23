@@ -1,7 +1,7 @@
 
 此 Repo 的詳細說明，請參考 [使用 Docker 建置 FTP(SFTP) 環境](https://mileslin.github.io/2020/02/%E4%BD%BF%E7%94%A8-Docker-%E5%BB%BA%E7%BD%AE-FTP-SFTP-%E7%92%B0%E5%A2%83/)
 
-**FTP 連線工具: 建議使用 [FileZilla](filezilla)**
+**FTP 連線工具: 建議使用 FileZilla**
 
 ## 啟用與停用方式
 
