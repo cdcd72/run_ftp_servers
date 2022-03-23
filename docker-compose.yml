@@ -8,19 +8,19 @@ services:
       - "30010-30019:30010-30019"
     environment:
       PUBLICHOST: "localhost"
-      FTP_USER_NAME: miles
+      FTP_USER_NAME: neil
       FTP_USER_PASS: 123456
-      FTP_USER_HOME: /home/miles
+      FTP_USER_HOME: /home/neil
       FTP_PASSIVE_PORTS: "30010:30019"
   sftp:
     image: atmoz/sftp
     ports:
-        - "2222:22"
-    command: miles:123456:::upload
+      - "2222:22"
+    command: neil:123456:::upload
   sftpssh:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-        - "2223:22"
-    command: miles::::upload
+      - "2223:22"
+    command: neil::::upload
